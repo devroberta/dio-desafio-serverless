@@ -138,6 +138,19 @@ resources:
       - http:
           path: /items/{id}
           method: put
-  ```
+  
+ ```
 
+endpoints:
+  GET - https://6j1jdl4ipf.execute-api.us-east-1.amazonaws.com/dev/
+  POST - https://6j1jdl4ipf.execute-api.us-east-1.amazonaws.com/dev/item
+  GET - https://6j1jdl4ipf.execute-api.us-east-1.amazonaws.com/dev/items
+  GET - https://6j1jdl4ipf.execute-api.us-east-1.amazonaws.com/dev/items/{id}
+  PUT - https://6j1jdl4ipf.execute-api.us-east-1.amazonaws.com/dev/items/{id}
+functions:
+  hello: dio-desafio-serverless-dev-hello (6.8 kB)
+  insertItem: dio-desafio-serverless-dev-insertItem (6.8 kB)
+  fetchItems: dio-desafio-serverless-dev-fetchItems (6.8 kB)
+  fetchItem: dio-desafio-serverless-dev-fetchItem (6.8 kB)
+  updateItem: dio-desafio-serverless-dev-updateItem (6.8 kB)
 
